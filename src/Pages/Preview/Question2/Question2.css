@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.sentence-container {
+  margin: 20px 0;
+}
+
+.sentence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ff0000;
+  padding: 10px;
+}
+
+.word-slot {
+  width: 60px;
+  height: 20px;
+  border: 1px solid #fd6262;
+  margin: 0 5px;
+}
+
+.word-gap {
+  width: 10px;
+}
+
+.word-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.word {
+  background-color: #eee;
+  padding: 5px 10px;
+  cursor: pointer;
+}

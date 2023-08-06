@@ -1,0 +1,107 @@
+/* Question2.css */
+
+.App {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
+.sentence-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.sentence {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.word-slot {
+  width: 60px;
+  height: 20px;
+  border: 1px dashed #ccc;
+  display: inline-block;
+  margin: 0 5px;
+  background-color: white; /* Add a white background to make slots visible */
+}
+
+.word-gap {
+  margin: 0 10px;
+}
+
+.word {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #5db3fa;
+  cursor: pointer;
+}
+
+.word-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sentence-preview {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Additional styling for better visibility of dropped words */
+.sentence span.word-slot {
+  border: none; /* Remove dashed border from word slots */
+  padding: 0 10px; /* Add padding to word slots */
+  display: inline-block;
+}
+
+/* Add more styles as needed */
+.mcq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+.mcq-question {
+  margin-bottom: 20px;
+  border: 1px solid #2695df;
+  border-radius: 5px;
+}
+
+.question {
+  font-weight: bold;
+}
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.answer-button {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.answer-button.selected {
+  background-color: #007bff;
+  color: rgb(255, 255, 255);
+  border-color: #000000;
+}
+
+.answer-button:hover {
+  background-color: #f0f0f0;
+}
